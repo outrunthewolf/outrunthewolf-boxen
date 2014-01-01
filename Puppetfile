@@ -55,3 +55,14 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "wget",            "1.0.0"
+github "sublime_text_3",  "1.0.2", :repo => "jozefizso/puppet-sublime_text_3"
+github "vagrant",         "1.0.0"
+github "chrome",          "1.0.0"
+github "osx",             "1.0.0"
+github "skype",           "1.0.0"
+github "zsh",             "1.0.0"
+github "minecraft",       "1.0.2"
+github "steam",           "1.0.1"
+github "vlc",             "1.0.5"
