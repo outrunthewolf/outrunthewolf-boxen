@@ -7,6 +7,7 @@ class people::outrunthewolf {
   include sublime_text_3
   include sublime_text_3::package_control
   include vagrant
+  include virtualbox
   include minecraft
   include steam
   include vlc

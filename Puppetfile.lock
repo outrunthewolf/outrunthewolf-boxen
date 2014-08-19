@@ -109,6 +109,11 @@ GITHUBTARBALL
     vagrant (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-vlc
   specs:
     vlc (1.0.5)
@@ -169,6 +174,7 @@ DEPENDENCIES
   sublime_text_3 (= 1.0.2)
   sudo (= 1.0.0)
   vagrant (= 1.0.0)
+  virtualbox (= 1.0.1)
   vlc (= 1.0.5)
   wget (= 1.0.0)
   xquartz (= 1.1.0)
