@@ -70,9 +70,16 @@ node default {
   postgresql::db { 'moltin': }
 
   # node versions
+<<<<<<< HEAD
+  include nodejs::v0_6
+  include nodejs::v0_8
+  include nodejs::v0_10
+  class { 'nodejs::global': version => 'v0.10' }
+=======
   nodejs::version { 'v0.6': }
   nodejs::version { 'v0.8': }
   nodejs::version { 'v0.10': }
+>>>>>>> upstream/master
 
   # default ruby versions
   ruby::version { '1.9.3': }
