@@ -1,10 +1,11 @@
 class projects::api {
-	
-	boxen::project { 'api',
-		server_name => 'dev.api.molt.in',
-		source 		=> 'moltin/api',
-		nginx		=> true,
-		redis		=> true,
-		postgres	=> true
-	}
+
+  php::project { 'api':
+    source        	=> 'moltin/api',
+    server_name 	=> 'api.local.molt.in',
+    postgres      	=> true,
+    nginx         	=> 'templates/shared/nginx.conf.erb',
+    redis         	=> true,
+    php           	=> '5.5.x',
+  }
 }

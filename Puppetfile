@@ -61,10 +61,9 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-github "mysql",         "2.0.1"
-github "postgresql",  "3.0.3"
-github "redis",       "3.1.0"
-github "sysctl",      "1.0.1"
+github "postgresql",      "3.0.3"
+github "redis",           "3.1.0"
+github "sysctl",          "1.0.1"
 github "wget",            "1.0.0"
 github "sublime_text_3",  "1.0.2", :repo => "jozefizso/puppet-sublime_text_3"
 github "vagrant",         "1.0.0"
@@ -76,3 +75,4 @@ github "minecraft",       "1.0.2"
 github "steam",           "1.0.1"
 github "vlc",             "1.0.5"
 github "virtualbox",      "1.0.1"
+github "htop",            "1.0.1", :repo => jdar/puppet-htop
